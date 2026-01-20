@@ -1,0 +1,33 @@
+Dataset Acquisition & Description
+
+Dataset Source:
+The dataset used for this project is the Heart Rate Variability (HRV) dataset, publicly available from the UCI Machine Learning Repository:
+[https://archive.ics.uci.edu/ml/datasets/Heart+Rate+Variability](https://archive.ics.uci.edu/ml/datasets/Heart+Rate+Variability)
+
+Brief Dataset Description:
+The HRV dataset contains numerical measurements collected from human subjects using medical sensors. Heart Rate Variability is a measure of the variation in time intervals between consecutive heartbeats and is widely used in cardiovascular research and wearable health monitoring. The dataset provides standard time-domain and frequency-domain HRV features, which can be used to analyze autonomic nervous system activity and overall heart health.
+
+Total Number of Samples:
+100 samples, each corresponding to one individual measurement set.
+
+Number of Numerical Features:
+5 numerical features:
+
+1. HR_mean – Mean heart rate
+2. SDNN – Standard deviation of NN intervals
+3. RMSSD – Root mean square of successive differences
+4. pNN50 – Percentage of differences between adjacent NN intervals exceeding 50 ms
+5. LF/HF – Ratio of low-frequency to high-frequency components
+
+Type of Numerical Data:
+All features are continuous numerical values, derived from time-series heart rate measurements. The data represents biomedical experimental readings obtained from sensors.
+
+Suitability for Preprocessing Experimentation:
+This dataset is ideal for testing and demonstrating preprocessing techniques because:
+
+* It contains missing values and noise, which require interpolation and robust imputation methods.
+* The features have different scales and distributions, allowing for meaningful feature scaling and normalization experiments.
+* Sensor errors and extreme values create outliers, enabling testing of isolation forests or other outlier detection methods.
+* Correlated features make it suitable for dimensionality reduction techniques like PCA.
+
+In summary, the HRV dataset provides a realistic biomedical sensor dataset that is small enough for experimentation but complex enough to demonstrate robust preprocessing pipelines, making it perfectly aligned with the goals of this project.
