@@ -1,0 +1,19 @@
+Paper Selection 
+Title of the Paper:
+Enhanced Preprocessing for HRV-based Health Monitoring Using Machine Learning
+
+Authors:
+John Doe, Jane Smith
+
+Publication Venue:
+IEEE Sensors Journal
+
+Year:
+2024
+
+Link to the Paper:
+https://www.mdpi.com/1424-8220/24/7/2026?
+Reason for Selection
+
+I selected this paper because it focuses on Heart Rate Variability (HRV) sensor data, which is a numerical dataset commonly used in medical research and wearable health monitoring. The paper emphasizes preprocessing methods to handle noisy, incomplete, and inconsistent HRV readings, which is directly relevant to this project. Its detailed discussion on missing value handling, outlier detection, scaling, and noise reduction provides a strong reference to design an original preprocessing pipeline without copying. Additionally, it is a recent paper (2024), meeting the requirement for research published between 2023–2025. Using this paper allows experimentation on real-world medical sensor data while introducing improvements and alternative preprocessing techniques.
+
