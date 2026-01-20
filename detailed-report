@@ -17,7 +17,7 @@ HRV signals are widely used in wearable health monitoring devices. This paper em
 
 3. Dataset Description
 
-* **Source:** Public UCI HRV dataset ([link](https://archive.ics.uci.edu/ml/datasets/Heart+Rate+Variability))
+Source: Public UCI HRV dataset ([link](https://archive.ics.uci.edu/ml/datasets/Heart+Rate+Variability))
 Samples: 100
 Numerical Features: 5
  HR_mean, SDNN, RMSSD, pNN50, LF_HF
